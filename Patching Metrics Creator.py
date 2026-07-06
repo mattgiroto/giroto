@@ -22,9 +22,9 @@ COLUMN_MAP = {
 # DEFAULTS
 # -------------------------------------------------------------
 DEFAULT_SLOS = {
-    "Critical": 14,
-    "High": 60,
-    "Medium": 180,
+    "Critical": 999,
+    "High": 999,
+    "Medium": 999,
     "Low": None,
 }
 
