@@ -78,7 +78,7 @@ def compare():
 
 # GUI
 root = tk.Tk()
-root.title("QIV - AMEX - Compare Tool")
+root.title("QIV - Compare Tool")
 root.geometry("850x550")
 
 tk.Button(root, text="Attach CMDB Baseline", command=select_cmdb).pack(pady=5)
