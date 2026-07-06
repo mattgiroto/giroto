@@ -8,7 +8,7 @@ I enjoy transforming repetitive operational tasks into reliable, scalable tools 
 
 # 🛡 Cybersecurity Projects
 
-## SHIELD
+## Project SHIELD
 **Enterprise Patch Intelligence Platform**
 
 A local Patch Intelligence platform designed to track IBM Security Bulletins, manage findings, monitor remediation status, and provide executive dashboards.
