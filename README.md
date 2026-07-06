@@ -1,150 +1,142 @@
-# 👋 Hi, I'm Matheus Giroto
+🛡 Enterprise Cybersecurity Automation Portfolio
 
-Cybersecurity Infrastructure Lead with a passion for automation, vulnerability management, reporting, and process optimization.
+Enterprise-grade automation solutions developed to optimize Vulnerability Management, Patch Management, Governance and Security Operations.
 
-I enjoy transforming repetitive operational tasks into reliable, scalable tools using Python.
+Project SHIELD (Work in Progress)
 
----
+Enterprise Patch Intelligence Platform.
 
-# 🛡 Cybersecurity Projects
+Features
+IBM Security Bulletin Tracking
+Local SQLite Database
+Patch Intelligence Dashboard
+Security Bulletin Search
+Executive KPIs
+Patch Lifecycle Tracking
+Streamlit Interface
 
-## Project SHIELD
-**Enterprise Patch Intelligence Platform**
+Tech Stack
 
-A local Patch Intelligence platform designed to track IBM Security Bulletins, manage findings, monitor remediation status, and provide executive dashboards.
+Python • Streamlit • SQLite • BeautifulSoup • Requests • Pandas
 
-### Features
+zOS Patching Report Generator
 
-- IBM Security Bulletin Search
-- Local SQLite database
-- Patch Intelligence Dashboard
-- Open / Closed / Overdue KPIs
-- Product filtering
-- Manual status management
-- Executive reporting
-- Streamlit UI
+Automates enterprise vulnerability reporting from raw vulnerability exports.
 
-**Tech**
+Features
+CSV → Executive XLSX Report
+Automatic sec_uuid generation
+Due Date calculation
+Team mapping
+APEXA export
+New Release detection
+Pending Updates
+Overdue Analysis
 
-- Python
-- Streamlit
-- SQLite
-- BeautifulSoup
-- Requests
-- Pandas
+Impact
 
----
+Reduced report preparation from hours to minutes.
 
-## zOS Patching Report Generator
+XLSX Readiness Analyzer
 
-Automates the generation of enterprise vulnerability reports from CSV exports.
+Quality Assurance tool for vulnerability reports before customer submission.
 
-### Features
+Validations
+Required columns
+sec_uuid validation
+Duplicate detection
+Status validation
+Team validation
+Date validation
+Readiness Score (0–100%)
+Overdue warnings
+zOS KPI Dashboard
 
-- Imports CSV exports
-- Generates formatted XLSX reports
-- Creates sec_uuid automatically
-- Maps CPE to support teams
-- Calculates Due Dates
-- Converts MODERATE → MEDIUM
-- Creates APEXA import CSV
-- Detects New Releases
-- Tracks Pending Updates
-- Tracks Overdue Patches
+Executive dashboard built using Streamlit.
 
----
+KPIs
+Open Findings
+Closed Findings
+Pending Updates
+Critical / High / Medium Overdue
+Team Distribution
+Monthly Installed Patches
+RHSA Analyzer
 
-## XLSX Readiness Analyzer
+Red Hat Security Advisory analysis tool.
 
-Quality Assurance tool used before sending vulnerability reports.
+Features
+RHSA Processing
+Architecture Filtering
+Severity Analysis
+Installed vs Missing Packages
+Export Reports
+Patching Tracking & Reminder (Legacy)
 
-### Validation
+Enterprise Patch Tracking workflow developed using Microsoft Power Platform.
 
-- Missing required columns
-- Invalid remediation status
-- Blank remediation fields
-- sec_uuid validation
-- Duplicate sec_uuid detection
-- Team validation
-- Date format validation
-- MODERATE → MEDIUM validation
-- Overdue warning detection
+Features
+Microsoft Teams automated reminders
+Patch due date notifications
+SME ownership tracking
+Microsoft Forms integration
+Executive reporting
+Automated follow-up process
 
-Provides an overall Readiness Score (0-100%).
+Tech Stack
 
----
+Microsoft Power Automate • Microsoft Forms • Microsoft Teams • Excel
 
-## zOS KPI Dashboard
+Status
 
-Executive dashboard built with Streamlit.
+Archived (replaced by Python automation)
 
-### KPIs
+Exception Request & Approval Workflow
 
-- Total Open
-- Total Closed
-- Pending Updates
-- Critical Overdue
-- High Overdue
-- Medium Overdue
-- Patches by Team
-- Monthly Installed Patches
+Automated Exception Request lifecycle.
 
----
+Features
+Security Exception Request
+Approval Workflow
+Multi-stage approvals
+Automatic notifications
+Audit trail
+Executive reporting
 
-## RHSA Analyzer
+Tech Stack
 
-Tool developed to analyze Red Hat Security Advisories.
+Microsoft Power Automate • Microsoft Forms • Microsoft 365
 
-### Features
+Technical Focus
+Vulnerability Management
+Patch Management
+Cybersecurity Automation
+Executive Reporting
+GRC
+IBM Z
+Red Hat Enterprise Linux
+Power Platform
+Python Automation
+Security Metrics
+Tech Stack
+Languages
+Python
+Automation
+Streamlit
+Microsoft Power Automate
+Microsoft Forms
+Data
+SQLite
+Pandas
+OpenPyXL
+Web
+Requests
+BeautifulSoup
+Reporting
+Power BI
+Excel
+About Me
 
-- RHSA import
-- Architecture filtering
-- RHEL 8 / 9 support
-- Installed vs Missing packages
-- Severity breakdown
-- Export reports
+Cybersecurity Infrastructure Lead with experience supporting global enterprise environments.
 
----
-
-# 🚀 Technologies
-
-- Python
-- Streamlit
-- Pandas
-- OpenPyXL
-- SQLite
-- Requests
-- BeautifulSoup
-- Git
-- Power BI
-
----
-
-# 📌 Focus Areas
-
-- Vulnerability Management
-- Cybersecurity Automation
-- Executive Reporting
-- GRC
-- Security Metrics
-- IBM Z
-- Red Hat Enterprise Linux
-- Process Optimization
-
----
-
-# 📈 Why these projects?
-
-The goal of these tools is to eliminate repetitive manual work performed by Vulnerability Management teams.
-
-These automations reduce report generation time from hours to minutes while increasing consistency and data quality.
-
----
-
-# 👨‍💻 Author
-
-**Matheus Giroto**
-
-Cybersecurity Infrastructure Lead
-
-Python Automation • Vulnerability Management • IBM Z • Reporting
+Passionate about automating repetitive security operations, improving data quality, and building solutions that reduce manual effort while increasing operational efficiency.
